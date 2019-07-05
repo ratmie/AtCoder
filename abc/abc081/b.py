@@ -16,3 +16,4 @@ def shiftOnly():
 	print(count)
 
 shiftOnly()
+#線形探索でもできる？
