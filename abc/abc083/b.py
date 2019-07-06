@@ -1,6 +1,6 @@
 def someSums():
 	n, a, b = map(int, input().split())
-	count = 0
+	total = 0
 	for i in range(1, n + 1):
 		sum = 0
 		n = i
@@ -11,7 +11,7 @@ def someSums():
 			else:
 				break
 		if a <= sum and sum <= b:
-			count += i
-	print(count)
+			total += i
+	print(total)
 
 someSums()
